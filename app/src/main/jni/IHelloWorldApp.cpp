@@ -17,6 +17,4 @@ jstring Java_com_gyoung_crypto_botan_android_demo_MainActivity_HelloWorldString(
 
     return env->NewStringUTF(s_ccid.c_str());
 }
-
-
 }

@@ -10,8 +10,8 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     static {
-        System.loadLibrary("crystax");
-        System.loadLibrary("test-hello-world");
+        System.loadLibrary("crystax"); //load the Crystax NDK C++11 Library
+        System.loadLibrary("test-hello-world"); //load our native code
     }
 
     //call a native method

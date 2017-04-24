@@ -15,6 +15,11 @@ Using: Android studio 2.3.1
 compileSdkVersion = 25.x
 buildToolsVersion = "25.x"
 
+in your "Gradle scripts" local.properties set the SDK and NDK path appropriately:
+ndk.dir=/Users/gyoung/Apps/crystax-ndk-10.3.2
+sdk.dir=/Users/gyoung/Apps/Android
+
+
 ```
 
 2017 - Gordon Young gjyoung1974@gmail.com
